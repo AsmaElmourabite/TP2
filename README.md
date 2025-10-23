@@ -1,16 +1,16 @@
 # TP2 - Application Spring avec Injection de Dépendances
 
-## 📋 Description
+##  Description
 Ce projet est une application Java développée avec le framework Spring, mettant en œuvre les concepts d'**Inversion de Contrôle (IoC)** et d'**Injection de Dépendances (DI)** via des annotations. L'application suit une architecture en couches avec des composants DAO, Métier et Présentation.
 
-## 🎯 Objectifs Pédagogiques
+##  Objectifs Pédagogiques
 - Comprendre l'Inversion de Contrôle (IoC) avec Spring
 - Maîtriser l'Injection de Dépendances via annotations
 - Implémenter une architecture en couches (DAO, Métier, Présentation)
 - Configurer Spring avec des annotations
 - Gérer les dépendances entre composants
 
-## 🏗️ Architecture du Projet
+##  Architecture du Projet
 ```
 TP2/
 ├── src/
@@ -32,13 +32,13 @@ TP2/
 └── pom.xml
 ```
 
-## ⚙️ Prérequis
+##  Prérequis
 - **Eclipse IDE for Java Developers** ou **IntelliJ IDEA**
 - **JDK 11** ou version supérieure
 - **Maven** 3.6+ pour la gestion des dépendances
 - **Spring Framework** 5.x
 
-## 📦 Dépendances Maven
+##  Dépendances Maven
 
 ### Fichier `pom.xml` :
 ```xml
@@ -99,7 +99,7 @@ TP2/
 </project>
 ```
 
-## 🚀 Installation et Exécution
+## Installation et Exécution
 
 ### 1. Cloner le dépôt
 ```bash
@@ -122,7 +122,7 @@ mvn exec:java -Dexec.mainClass="presentation.Presentation2"
 mvn clean package
 ```
 
-## 📁 Structure des Composants
+## Structure des Composants
 
 ### Couche DAO (Data Access Object)
 - **IDao.java** : Interface définissant les opérations d'accès aux données
@@ -181,7 +181,7 @@ public class MetierImpl implements IMetier {
 </beans>
 ```
 
-## 💻 Exemple de Code
+##  Exemple de Code
 
 ### Interface IDao
 ```java
