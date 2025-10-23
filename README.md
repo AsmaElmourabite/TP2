@@ -318,11 +318,4 @@ mvn dependency:tree
 mvn exec:java -Dexec.mainClass="presentation.Presentation2" -X
 ```
 
-## 👩‍💻 Auteur
-- **Asma Elmourabite** - [GitHub Profile](https://github.com/AsmaElmourabite)
-
-## 📄 License
-Ce projet est développé à des fins éducatives dans le cadre d'un TP sur Spring Framework.
-
----
-*Dernière mise à jour : ${date}*
+ jour : ${date}*
